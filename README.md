@@ -17,4 +17,4 @@ This is a test task written in Titanium SDK with Alloy framework.
 </p>
 
 ## Video
-<a href="https://www.youtube.com/watch?v=CNqhEUvWKA0" target="_blank">![Watch the video](https://github.com/Dmytro27Ind/images/blob/main/TiUsers-6.jpg)</a>
+<a href="https://www.youtube.com/watch?v=CNqhEUvWKA0" target="_blank">![Watch the video](https://github.com/Dmytro27Ind/images/blob/main/TiUsers-6.PNG)</a>
