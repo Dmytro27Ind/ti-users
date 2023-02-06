@@ -1,0 +1,19 @@
+{
+	"global": {
+		"styles": {
+			"accentColor": "#ffd369",
+			"grey1": "#1C1C1C",
+			"grey2": "#212121",
+			"secondaryText": "#878787",
+			"borderColor": "#ababab"
+		}
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:ios": {},
+	"os:windows": {},
+	"dependencies": {},
+	"backbone": "1.4.0"
+}

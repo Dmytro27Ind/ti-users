@@ -1,0 +1,12 @@
+<Alloy>
+  <Window class="container">
+    <View class="login-wrapper">
+      <View class="login-form" layout="vertical">
+        <Label class="login-form__header">Authorization</Label>
+        <TextField class="login-form__element" id="email" hintText="Email" />
+        <TextField class="login-form__element" id="password" hintText="Password" passwordMask="true" />
+        <Button class="login-form__button" title="Login" onClick="handleLogin" />
+      </View>
+    </View>
+  </Window>
+</Alloy>

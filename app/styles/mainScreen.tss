@@ -1,0 +1,7 @@
+'TabGroup[platform=android]': {
+	style: Ti.UI.Android.TABS_STYLE_BOTTOM_NAVIGATION
+}
+
+'TabGroup': {
+	tabsBackgroundColor: Alloy.CFG.styles.grey2
+}

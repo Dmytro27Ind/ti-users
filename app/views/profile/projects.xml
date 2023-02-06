@@ -1,0 +1,53 @@
+<Alloy>
+  <View layout="vertical" height="Ti.UI.FILL" width="Ti.UI.FILL">
+    <View class="project-wrapper" layout="vertical">
+      <View class="project" layout="vertical">
+        <View class="project-header" layout="horizontal">
+          <ImageView class="project-header__icon" image="/images/icons/project.png"/>
+          <Label class="project-name" onClick="openLink" link="https://github.com/Dmytro27Ind/react-music-player">React Music Player</Label>
+        </View>
+        <Label class="project-desc">This is a music player written in React using libraries such as Redux and MUI for UI elements.</Label>
+        <Label class="project-demo" link="https://dmytro27ind.github.io/react-music-player/" onClick="openLink">Link to Demo</Label>
+        <View class="project-languages" layout="horizontal">
+          <View class="circle react"/>
+          <Label class="project__language">React</Label>
+          <View class="circle js"/>
+          <Label class="project__language">JavaScript</Label>
+        </View>
+      </View>
+    </View>
+    <View class="project-wrapper" layout="vertical">
+      <View class="project" layout="vertical">
+        <View class="project-header" layout="horizontal">
+          <ImageView class="project-header__icon" image="/images/icons/project.png"/>
+          <Label class="project-name" onClick="openLink" link="https://github.com/Dmytro27Ind/city-desk">City Desk</Label>
+        </View>
+        <Label class="project-desc">Application for notification of breakdowns in the city. App written with React Native.</Label>
+        <View class="project-languages" layout="horizontal">
+          <View class="circle react"/>
+          <Label class="project__language">React</Label>
+          <View class="circle js"/>
+          <Label class="project__language">JavaScript</Label>
+        </View>
+      </View>
+    </View>
+    <View class="project-wrapper" layout="vertical">
+      <View class="project" layout="vertical">
+        <View class="project-header" layout="horizontal">
+          <ImageView class="project-header__icon" image="/images/icons/project.png"/>
+          <Label class="project-name" onClick="openLink" link="https://github.com/Dmytro27Ind/web-cv">Web CV</Label>
+        </View>
+        <Label class="project-desc">This project is my resume written in React.</Label>
+        <Label class="project-demo" link="https://dmytro27ind.github.io/web-cv/" onClick="openLink">Link to Demo</Label>
+        <View class="project-languages" layout="horizontal">
+          <View class="circle react"/>
+          <Label class="project__language">React</Label>
+          <View class="circle js"/>
+          <Label class="project__language">JavaScript</Label>
+          <View class="circle scss"/>
+          <Label class="project__language">scss</Label>
+        </View>
+      </View>
+    </View>
+  </View>
+</Alloy>

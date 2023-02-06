@@ -1,0 +1,82 @@
+".project-wrapper": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+}
+
+".project": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    backgroundColor: Alloy.CFG.styles.grey1,
+    top: 5,
+    bottom: 5,
+    left: 25,
+    right: 25,
+    borderRadius: 10
+}
+
+".project-header": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    top: 10,
+    bottom: 10
+}
+
+".project-header__icon": {
+    left: 20,
+    right: 20,
+    width: 20,
+    height: 20
+}
+
+".project-name": {
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    width: Ti.UI.FILL,
+    color: Alloy.CFG.styles.accentColor,
+    font: {
+        fontSize: 16,
+        fontWeight: 'bold'
+    }
+}
+
+".project-desc": {
+    left: 20,
+    right: 20,
+    bottom: 10
+}
+
+".project-demo": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    left: 20,
+    right: 20,
+    bottom: 10,
+    color: Alloy.CFG.styles.accentColor
+}
+
+".project-languages": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    left: 5,
+    right: 20,
+    bottom: 10
+}
+
+".circle": {
+    width: 15,
+    height: 15,
+    right: 15,
+    left: 15,
+    borderRadius: 8
+}
+
+".react": {
+    backgroundColor: "#61dafb"
+}
+
+".js": {
+    backgroundColor: "#f1e05a"
+}
+
+".scss": {
+    backgroundColor: "#c6538c"
+}

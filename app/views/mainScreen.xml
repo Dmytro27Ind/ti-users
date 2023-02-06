@@ -1,0 +1,6 @@
+<Alloy>
+  <TabGroup>
+    <Require src="table/tableTab"/>
+    <Require src="profile/profileTab"/>
+  </TabGroup>
+</Alloy>

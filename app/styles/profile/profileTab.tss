@@ -1,0 +1,85 @@
+"Tab": {
+    icon: '/images/icons/profile.png'
+}
+
+".profile-header": {
+    backgroundColor: Alloy.CFG.styles.grey1,
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    top: 0
+}
+
+".profile-header__avatar": {
+    width: 50,
+    height: 50,
+    borderRadius: 10,
+    top: 5,
+    left: 25,
+    bottom: 5
+}
+
+".profile-header__details": {
+    height: Ti.UI.SIZE
+}
+
+".profile-header__name": {
+    height: Ti.UI.SIZE,
+    font: {
+        fontSize: 18,
+        fontWeight: "bold"
+    },
+    right: 75,
+    width: Ti.UI.FILL,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+".profile-details": {
+    height: Ti.UI.SIZE,
+    right: 25,
+    left: 25
+}
+
+"#profileScrollView": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    layout: 'vertical'
+}
+
+".TableSection": {
+    height: 40
+}
+
+".section-label": {
+    width: Ti.UI.FILL,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    font: {
+        fontSize: 16,
+        fontWeight: 'bold'
+    }
+}
+
+"#row": {
+    height: 50
+}
+
+".profile-details__row": {
+    height: Ti.UI.FILL,
+    width: Ti.UI.FILL
+}
+
+".row-icon": {
+    height: 25,
+    width: 25,
+    right: 20,
+    left: 20
+}
+
+".row-label": {
+    top: 10,
+    bottom: 10,
+    width: "75%",
+    ellipsize: Ti.UI.TEXT_ELLIPSIZE_TRUNCATE_START,
+    font: {
+        fontSize: 16
+    }
+}

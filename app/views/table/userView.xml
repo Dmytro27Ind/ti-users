@@ -1,0 +1,48 @@
+<Alloy>
+  <Window class="container">
+    <View class="user-view" layout="vertical">
+      <View class="app-bar-wrapper">
+        <View class="app-bar" layout="horizontal">
+          <ImageView class="app-bar__backArrow" image="/images/icons/arrowBack.png" onClick="goBack" />
+          <Label class="app-bar__title">User Details</Label>
+        </View>
+        <View class="app-bar__bottom"></View>
+      </View>
+      <View class="header-wrapper" layout="horizontal">
+        <ImageView id="avatar"/>
+        <View class="header-data" layout="vertical">
+          <Label id="name"/>
+          <Label id="id"/>
+        </View>
+      </View>
+      <TableView class="details-wrapper" layout="vertical">
+        <TableViewRow id="row">
+          <View class="details-row" layout="horizontal">
+            <ImageView class="details-row__icon" image="/images/icons/mail.png"/>
+            <Label id="email"/>
+          </View>
+        </TableViewRow>
+        <TableViewRow id="row">
+          <View class="details-row" layout="horizontal">
+            <ImageView class="details-row__icon" image="/images/icons/phone.png"/>
+            <Label id="phone_number"/>
+          </View>
+        </TableViewRow>
+        <TableViewRow id="row">
+          <View class="details-row" layout="horizontal">
+            <ImageView class="details-row__icon" image="/images/icons/color.png"/>
+            <Label id="favourite_color"/>
+            <View id="colorSquare" layout="horizontal"></View>
+          </View>
+        </TableViewRow>
+        <TableViewRow id="row">
+          <View class="details-row" layout="horizontal">
+            <ImageView class="details-row__icon" image="/images/icons/date.png"/>
+            <Label id="createdAt"/>
+          </View>
+        </TableViewRow>
+      </TableView>
+      <Button class="delete-button" onClick="deleteUser">Delete User</Button>
+    </View>
+  </Window>
+</Alloy>

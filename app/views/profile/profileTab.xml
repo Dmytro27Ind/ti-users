@@ -1,0 +1,49 @@
+<Alloy>
+  <Tab title="Profile">
+    <Window class="container">
+      <View class="profile-wrapper" layout="vertical">
+        <View class="profile-header" layout="horizontal">
+          <ImageView class="profile-header__avatar" image="/images/avatar.png"/>
+          <View class="profile-header__details">
+            <Label class="profile-header__name">Dmytro Kagirov</Label>
+          </View>
+        </View>
+        <ScrollView id="profileScrollView">
+          <TableView class="profile-details" layout="vertical">
+            <TableViewSection>
+              <HeaderView>
+                  <View class="TableSection">
+                    <Label class="section-label">Contacts: </Label>
+                  </View>
+              </HeaderView>
+              <TableViewRow id="row">
+                <View class="profile-details__row" onClick="phoneClick" layout="horizontal">
+                  <ImageView class="row-icon" image="/images/icons/phone.png"/>
+                  <Label class="row-label">+421951338470</Label>
+                </View>
+              </TableViewRow>
+              <TableViewRow id="row">
+                <View class="profile-details__row" onClick="emailClick" layout="horizontal">
+                  <ImageView class="row-icon" image="/images/icons/mail.png"/>
+                  <Label class="row-label">dmytro27kagirov@gmail.com</Label>
+                </View>
+              </TableViewRow>
+              <TableViewRow id="row">
+                <View class="profile-details__row" layout="horizontal">
+                  <ImageView class="row-icon" image="/images/icons/version.png"/>
+                  <Label id="version" class="row-label"></Label>
+                </View>
+              </TableViewRow>
+              <FooterView>
+                  <View class="TableSection">
+                    <Label class="section-label">Projects: </Label>
+                  </View>
+              </FooterView>
+            </TableViewSection>
+          </TableView>
+          <Require src="profile/projects"/>
+        </ScrollView>
+      </View>
+    </Window>
+  </Tab>
+</Alloy>

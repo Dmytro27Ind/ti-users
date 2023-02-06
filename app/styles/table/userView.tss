@@ -1,0 +1,166 @@
+".user-view": {
+    backgroundColor: Alloy.CFG.styles.grey1,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.FILL,
+    borderRadius: 20,
+    top: 60,
+    left: 20,
+    bottom: 60,
+    right: 20
+}
+
+".app-bar-wrapper": {
+    center: {y: 0},
+    height: 50,
+    width: Ti.UI.FILL,
+    backgroundColor: Alloy.CFG.styles.grey2
+}
+
+".app-bar": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE
+}
+
+".app-bar__backArrow": {
+    width: 30,
+    height: 30,
+    left: 10
+}
+
+".app-bar__title": {
+    width: Ti.UI.FILL,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    font: {
+        fontSize: 18
+    },
+    right: 40
+}
+
+".app-bar__bottom": {
+    width: Ti.UI.FILL,
+    height: 1,
+    backgroundColor: "#707070",
+    bottom: 0
+}
+
+".header-wrapper": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    top: 10
+}
+
+"#avatar": {
+    width: 90,
+    height: 90,
+    left: 20,
+    top: 20,
+    bottom: 20,
+    right: 20,
+    borderRadius: 45,
+    borderWidth: 1,
+    borderColor: Alloy.CFG.styles.borderColor
+}
+
+".header-data": {
+    height: Ti.UI.SIZE,
+    right: 20
+}
+
+"#name": {
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    ellipsize: Ti.UI.TEXT_ELLIPSIZE_TRUNCATE_START,
+    font: {
+        fontSize: 18,
+        fontWeight: "bold"
+    },
+    width: Ti.UI.FILL,
+    bottom: 5
+}
+
+"#id": {
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    ellipsize: Ti.UI.TEXT_ELLIPSIZE_TRUNCATE_START,
+    font: {
+        fontSize: 16
+    },
+    width: Ti.UI.FILL
+}
+
+".details-wrapper": {
+    height: Ti.UI.SIZE,
+    right: 25,
+    left: 25
+}
+
+"#row": {
+    height: 50
+}
+
+".details-row": {
+    height: Ti.UI.FILL,
+    width: Ti.UI.FILL
+}
+
+".details-row__icon": {
+    height: 25,
+    width: 25,
+    right: 20,
+    left: 20
+}
+
+"#email": {
+    top: 10,
+    bottom: 10,
+    width: "75%",
+    ellipsize: Ti.UI.TEXT_ELLIPSIZE_TRUNCATE_START,
+    font: {
+        fontSize: 16
+    }
+}
+
+"#phone_number": {
+    bottom: 10,
+    top: 10,
+    width: "75%",
+    ellipsize: Ti.UI.TEXT_ELLIPSIZE_TRUNCATE_START,
+    font: {
+        fontSize: 16
+    }
+}
+
+"#favourite_color": {
+    bottom: 10,
+    top: 10,
+    width: Ti.UI.SIZE,
+    ellipsize: Ti.UI.TEXT_ELLIPSIZE_TRUNCATE_START,
+    font: {
+        fontSize: 16
+    }
+}
+
+"#colorSquare": {
+    width: 15,
+    height: 15,
+    backgroundColor: "#fff000",
+    borderWidth: 1,
+    borderColor: Alloy.CFG.styles.borderColor,
+    borderRadius: 3,
+    left: 15
+}
+
+"#createdAt": {
+    bottom: 10,
+    top: 10,
+    width: "75%",
+    ellipsize: Ti.UI.TEXT_ELLIPSIZE_TRUNCATE_START,
+    font: {
+        fontSize: 16
+    }
+}
+
+".delete-button": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    top: 30,
+    bottom: 30
+}

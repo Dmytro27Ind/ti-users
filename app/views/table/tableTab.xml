@@ -1,0 +1,43 @@
+<Alloy>
+  <Collection src="users" />
+  <Tab title="Table">
+    <Window class="container" onClose="cleanup">
+      <View class="appBar">
+        <SearchBar id="appBarSearch" hintText="User Search" onChange="searchHandle"/>
+      </View>
+      <ListView id="usersListView" onItemclick="handleUserClick"
+        allowsSelectionDuringEditing="false"
+        allowsMultipleSelectionDuringEditing="false"
+        editing="true"
+      >
+        <!-- Custom item template for users -->
+        <Templates>
+          <ItemTemplate name="userTemplate">
+            <View class="user-wrapper" layout="horizontal" touchEnabled="false">
+              <Label bindId="id" class="idLabel" touchEnabled="false"/>
+              <ImageView bindId="avatar" class="avatarImage" touchEnabled="false"/>
+              <View class="user-info" layout="vertical" touchEnabled="false">
+                <Label bindId="name" class="nameLabel" touchEnabled="false"/>
+                <Label bindId="email" class="emailLabel" touchEnabled="false"/>
+              </View>
+            </View>
+          </ItemTemplate>
+        </Templates>
+
+        <ListSection dataCollection="users">
+          <ListItem template="userTemplate" canEdit="true" canMove="true"
+            id:text="{id}."
+            name:text="{name}"
+            email:text="{email}"
+            avatar:image="{avatar}"
+            onClick="handleUserClick"
+            userId="{id}" userName="{name}" userEmail="{email}"
+            userAvatar="{avatar}" userCreatedAt="{createdAt}"
+            userPhoneNumber="{phone_number}" userFavouriteColor="{favourite_color}"
+          />
+        </ListSection>
+
+      </ListView>
+    </Window>
+  </Tab>
+</Alloy>

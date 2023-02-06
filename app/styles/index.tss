@@ -1,0 +1,39 @@
+".login-wrapper": {
+    backgroundColor: Alloy.CFG.styles.grey2,
+    borderRadius: 25,
+    width: "75%",
+    height: "46%",
+    elevation: 1
+}
+
+".login-form": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+}
+
+".login-form__element": {
+    top: "3%",
+    hintType: Ti.UI.HINT_TYPE_ANIMATED,
+    borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+".login-form__button": {
+    top: "8%"
+}
+
+"#email": {
+    width: "90%"
+}
+
+"#password": {
+    width: "90%"
+}
+
+".login-form__header": {
+    font: {
+        fontSize: 24,
+        fontWeight: "bold"
+    },
+    width: "70%",
+    bottom: "3%"
+}
