@@ -15,3 +15,6 @@ This is a test task written in Titanium SDK with Alloy framework.
   <img src="https://github.com/Dmytro27Ind/images/blob/main/TiUsers-4.jpg" width="250" />
   <img src="https://github.com/Dmytro27Ind/images/blob/main/TiUsers-5.jpg" width="250" />
 </p>
+
+## Video
+<a href="https://www.youtube.com/watch?v=CNqhEUvWKA0" target="_blank">![Watch the video](https://github.com/Dmytro27Ind/images/blob/main/TiUsers-6.jpg)</a>
